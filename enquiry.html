@@ -1,290 +1,45 @@
 <!DOCTYPE html>
-<html>
-    
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Enquiry | Regyana Bed & Breakfast</title>
+<html lang="en">
+<head><title>Enquiry | Regyana Bed & Breakfast</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Make an enquiry about accommodation, breakfast, catering or event décor at Regyana Bed & Breakfast.">
+<meta name="keywords" content="Regyana Bed and Breakfast, Koster accommodation, Koster bed and breakfast, accommodation, catering, event decor">
+<meta name="author" content="ST10528245">
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="CSS/style.css">
+<script src="js/main.js" defer></script>
 </head>
-
-<body bgcolor="#F8F5F0">
-
-    <!-- HEADER -->
-    <header align="center">
-
-        <img src="Images/logo.png"
-             alt="Regyana Bed & Breakfast Logo"
-             width="180">
-
-        <h1>Regyana Bed & Breakfast</h1>
-
-        <p><em>Comfort • Hospitality • Memorable Experiences</em></p>
-
-        <!-- NAVIGATION -->
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="aboutus.html">About Us</a> |
-            <a href="services.html">Services</a> |
-            <a href="enquiry.html">Enquiry</a> |
-            <a href="contact.html">contact</a>
-        </nav>
-
-    </header>
-
-    <hr>
-
-    <!-- MAIN CONTENT -->
-    <main>
-
-        <!-- PAGE INTRODUCTION -->
-        <section align="center">
-
-            <h2>Make an Enquiry</h2>
-
-            <p>
-                <strong>We would love to hear from you!</strong>
-            </p>
-
-            <p>
-                Complete the form below to enquire about our
-                accommodation, breakfast, catering or event
-                decoration services.
-            </p>
-
-        </section>
-
-        <br>
-
-        <!-- ENQUIRY FORM -->
-        <section>
-
-            <form>
-
-                <fieldset>
-
-                    <legend>
-                        <strong>Personal Information</strong>
-                    </legend>
-
-                    <br>
-
-                    <label for="fullname">
-                        <strong>Full Name:</strong>
-                    </label>
-
-                    <br>
-
-                    <input type="text"
-                           id="fullname"
-                           name="fullname"
-                           size="40"
-                           placeholder="Enter your full name"
-                           required>
-
-                    <br><br>
-
-
-                    <label for="email">
-                        <strong>Email Address:</strong>
-                    </label>
-
-                    <br>
-
-                    <input type="email"
-                           id="email"
-                           name="email"
-                           size="40"
-                           placeholder="Enter your email"
-                           required>
-
-                    <br><br>
-
-
-                    <label for="phone">
-                        <strong>Phone Number:</strong>
-                    </label>
-
-                    <br>
-
-                    <input type="tel"
-                           id="phone"
-                           name="phone"
-                           size="40"
-                           placeholder="Enter your phone number"
-                           required>
-
-                    <br><br>
-
-                </fieldset>
-
-                <br>
-
-
-                <!-- SERVICE INFORMATION -->
-                <fieldset>
-
-                    <legend>
-                        <strong>Service Information</strong>
-                    </legend>
-
-                    <br>
-
-                    <label for="service">
-                        <strong>What are you enquiring about?</strong>
-                    </label>
-
-                    <br><br>
-
-                    <select id="service" name="service">
-
-                        <option value="">
-                            -- Select a Service --
-                        </option>
-
-                        <option value="accommodation">
-                            Accommodation
-                        </option>
-
-                        <option value="breakfast">
-                            Breakfast
-                        </option>
-
-                        <option value="catering">
-                            Catering Services
-                        </option>
-
-                        <option value="decoration">
-                            Event Décor
-                        </option>
-
-                        <option value="party">
-                            Party / Celebration
-                        </option>
-
-                        <option value="baby-shower">
-                            Baby Shower
-                        </option>
-
-                        <option value="other">
-                            Other
-                        </option>
-
-                    </select>
-
-                    <br><br>
-
-
-                    <label for="date">
-                        <strong>Preferred Date:</strong>
-                    </label>
-
-                    <br>
-
-                    <input type="date"
-                           id="date"
-                           name="date">
-
-                    <br><br>
-
-
-                    <label for="guests">
-                        <strong>Number of Guests:</strong>
-                    </label>
-
-                    <br>
-
-                    <input type="number"
-                           id="guests"
-                           name="guests"
-                           min="1"
-                           placeholder="Number of guests">
-
-                    <br><br>
-
-                </fieldset>
-
-                <br>
-
-
-                <!-- MESSAGE -->
-                <fieldset>
-
-                    <legend>
-                        <strong>Your Enquiry</strong>
-                    </legend>
-
-                    <br>
-
-                    <label for="message">
-                        Please tell us what you need:
-                    </label>
-
-                    <br><br>
-
-                    <textarea id="message"
-                              name="message"
-                              rows="7"
-                              cols="55"
-                              placeholder="Type your enquiry here..."
-                              required></textarea>
-
-                    <br><br>
-
-                </fieldset>
-
-                <br>
-
-                <!-- BUTTONS -->
-                <div align="center">
-
-                    <input type="submit"
-                           value="Submit Enquiry">
-
-                    &nbsp;&nbsp;
-
-                    <input type="reset"
-                           value="Clear Form">
-
-                </div>
-
-            </form>
-
-        </section>
-
-        <br>
-
-        <hr>
-
-
-
-    </main>
-
-    <hr>
-
-
-    <!-- FOOTER -->
-    <footer align="center">
-
-        <p>
-            <strong>Regyana Bed & Breakfast</strong>
-        </p>
-
-        <p>
-            Comfort, Hospitality & Memorable Experiences
-        </p>
-
-        <p>
-            &copy; 2026 Regyana Bed & Breakfast.
-            All Rights Reserved.
-        </p>
-
-    </footer>
-
-</body>
-
-
-</html>
-    
-
+<body>
+<header>
+<div class="header-inner">
+<div class="brand"><a href="index.html" aria-label="Regyana Bed & Breakfast home"><img src="Images/logo.png" alt="Regyana Bed & Breakfast logo"></a>
+<div><h1>Regyana Bed & Breakfast</h1><p class="tagline">Comfort • Hospitality • Memorable Experiences</p></div></div>
+<nav aria-label="Main navigation"><ul>
+<li><a class="" href="index.html">Home</a></li>
+<li><a class="" href="about_us.html">About Us</a></li>
+<li><a class="" href="services.html">Services</a></li>
+<li><a class="active" href="enquiry.html">Enquiry</a></li>
+<li><a class="" href="contact.html">Contact</a></li>
+</ul></nav>
+</div></header>
+<main>
+<section class="card reveal"><h2>Make an Enquiry</h2><p><strong>We would love to hear from you!</strong></p><p>Complete the form below to enquire about accommodation, breakfast, catering or event decoration services.</p></section>
+<form id="enquiry-form" action="#" method="post" novalidate>
+<fieldset><legend>Personal Information</legend>
+<label for="fullname">Full Name:</label><input type="text" id="fullname" name="fullname" minlength="2" maxlength="80" autocomplete="name" required>
+<label for="email">Email Address:</label><input type="email" id="email" name="email" autocomplete="email" required>
+<label for="phone">Phone Number:</label><input type="tel" id="phone" name="phone" pattern="^\+?[0-9\s()\-]{7,20}$" autocomplete="tel" required>
+</fieldset>
+<fieldset><legend>Service Information</legend>
+<label for="service">What are you enquiring about?</label><select id="service" name="service" required><option value="">-- Select a Service --</option><option value="accommodation">Accommodation</option><option value="breakfast">Breakfast</option><option value="catering">Catering Services</option><option value="decoration">Event Décor</option><option value="party">Party / Celebration</option><option value="baby-shower">Baby Shower</option><option value="other">Other</option></select>
+<label for="date">Preferred Date:</label><input type="date" id="date" name="date" min="2026-11-01">
+<label for="guests">Number of Guests:</label><input type="number" id="guests" name="guests" min="1" max="500" placeholder="Number of guests">
+</fieldset>
+<fieldset><legend>Your Enquiry</legend><label for="message">Please tell us what you need:</label><textarea id="message" name="message" minlength="10" maxlength="1000" placeholder="Type your enquiry here..." required></textarea></fieldset>
+<div class="form-actions"><input type="submit" value="Submit Enquiry"><input type="reset" value="Clear Form"></div>
+<div id="enquiry-result" class="form-result" tabindex="-1" hidden></div>
+</form>
+</main>
+<footer><p><strong>Regyana Bed & Breakfast</strong></p><p>Comfort • Hospitality • Memorable Experiences</p><p>&copy; <span class="current-year">2026</span> Regyana Bed & Breakfast. All Rights Reserved.</p></footer>
+</body></html>

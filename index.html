@@ -1,99 +1,49 @@
-<html></html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Regyana Bed & Breakfast</title>
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Home | Regyana Bed & Breakfast</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Regyana Bed & Breakfast in Koster offers comfortable accommodation, breakfast, catering and event décor.">
+<meta name="keywords" content="Regyana Bed and Breakfast, Koster accommodation, Koster bed and breakfast, accommodation, catering, event decor">
+<meta name="author" content="ST10528245">
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="CSS/style.css">
+<script src="js/main.js" defer></script>
 </head>
-
 <body>
-
-    <!-- Header -->
-    <header>
-
-        <img src="Images/logo.png"
-             alt="Regyana Bed & Breakfast Logo"
-             width="250">
-
-        <h1>Regyana Bed & Breakfast</h1>
-
-        <!-- Navigation Menu -->
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="about.html">About Us</a> |
-            <a href="services.html">Rooms</a> |
-            <a href="enquiry.html">Enquiry</a> |
-            <a href="contact.html">Contact</a>
-        </nav>
-
-    </header>
-
-    <hr>
-
-    <!-- Hero Section -->
-    <main>
-
-        <section>
-
-            <img src="Images/hero.jpg"
-                 alt="Regyana Bed & Breakfast"
-                 width="800">
-
-            <a href="enquiry.html">Make an Enquiry</a>
-
-        </section>
-
-        <hr>
-
-        <!-- Brief Information -->
-        <section>
-
-            <h2>About Regyana Bed & Breakfast</h2>
-
-            <p>
-                Regyana Bed & Breakfast is an accommodation business
-                focused on providing guests with a comfortable and
-                welcoming stay.
-            </p>
-
-            <p>
-                Explore our website to learn more about our rooms,
-                services and how to contact us.
-            </p>
-
-
-            <h2>Contact Us</h2>
-
-            <p>
-                <strong>Phone:</strong>
-                <a href="tel:+27714423714">+27 71 442 3714</a>
-                |
-                <a href="tel:+27626064471">+27 062 606 4471</a>
-            </p>
-
-            <p>
-                Have a question?
-                <a href="enquiry.html">Make an enquiry</a>
-                today.
-            </p>
-
-        </section>
-
-    </main>
-
-    <hr>
-
-    <!-- Footer -->
-    <footer>
-
-        <p>
-            &copy; 2026 Regyana Bed & Breakfast.
-            All Rights Reserved.
-        </p>
-
-    </footer>
-
-</body>
-
-</html>
+<header>
+<div class="header-inner">
+<div class="brand"><a href="index.html" aria-label="Regyana Bed & Breakfast home"><img src="Images/logo.png" alt="Regyana Bed & Breakfast logo"></a>
+<div><h1>Regyana Bed & Breakfast</h1><p class="tagline">Comfort • Hospitality • Memorable Experiences</p></div></div>
+<nav aria-label="Main navigation"><ul>
+<li><a class="active" href="index.html">Home</a></li>
+<li><a class="" href="about_us.html">About Us</a></li>
+<li><a class="" href="services.html">Services</a></li>
+<li><a class="" href="enquiry.html">Enquiry</a></li>
+<li><a class="" href="contact.html">Contact</a></li>
+</ul></nav>
+</div></header>
+<main>
+<section class="hero card reveal">
+<picture><source media="(max-width: 600px)" srcset="Images/hero-small.jpg"><source media="(max-width: 1000px)" srcset="Images/hero-medium.jpg">
+<img src="Images/hero.jpg" srcset="Images/hero-small.jpg 640w, Images/hero-medium.jpg 1024w, Images/hero.jpg 1600w" sizes="(max-width: 600px) 100vw, (max-width: 1000px) 55vw, 700px" alt="Comfortable accommodation at Regyana Bed & Breakfast">
+</picture>
+<div class="hero-content"><p class="eyebrow">Koster accommodation</p><h2>Welcome to Regyana Bed & Breakfast</h2>
+<p>Regyana Bed & Breakfast provides comfortable accommodation and friendly service for guests visiting the Koster area.</p>
+<a class="button" href="enquiry.html">Make an Enquiry</a></div>
+</section>
+<section class="card reveal"><h2>About Regyana Bed & Breakfast</h2><p>Our aim is to provide a relaxing and welcoming environment where guests can enjoy their stay.</p><p>Explore our website to learn more about our accommodation, services and contact details.</p></section>
+<section class="grid-2">
+<article class="card reveal"><h2>Our Services</h2><ul><li>Comfortable accommodation</li><li>Breakfast</li><li>Outdoor swimming pool</li><li>Free Wi-Fi and parking</li><li>Catering and event décor</li></ul><a class="button" href="services.html">View Services</a></article>
+<article class="card reveal"><h2>Contact Us</h2><p><strong>Phone:</strong> <a href="tel:+27714423714">+27 71 442 3714</a></p><p><strong>Email:</strong> <a href="mailto:info@regyana.co.za">info@regyana.co.za</a></p><a class="button" href="contact.html">Contact Details</a></article>
+</section>
+<section class="card reveal"><h2>Frequently Asked Questions</h2>
+<div class="accordion">
+<button class="accordion-button" aria-expanded="false" aria-controls="faq1">What accommodation do you offer?</button>
+<div id="faq1" class="accordion-panel" hidden><p>Regyana provides comfortable accommodation, with rates starting at approximately R600 per night.</p></div>
+<button class="accordion-button" aria-expanded="false" aria-controls="faq2">Do you provide event services?</button>
+<div id="faq2" class="accordion-panel" hidden><p>Yes. Catering and event décor can be arranged for parties, birthdays, baby showers and other special occasions.</p></div>
+</div></section>
+</main>
+<footer><p><strong>Regyana Bed & Breakfast</strong></p><p>Comfort • Hospitality • Memorable Experiences</p><p>&copy; <span class="current-year">2026</span> Regyana Bed & Breakfast. All Rights Reserved.</p></footer>
+</body></html>
